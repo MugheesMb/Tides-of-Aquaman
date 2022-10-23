@@ -1,16 +1,22 @@
-# game2
+## How to run this Game.
+- The app is completely built on `flutter` framework of `dart` and that's why we need `flutter sdk` and much more do your flutter setup by going to the folloewing link
+- https://docs.flutter.dev/get-started/install/windows
+-  , after the successful of setup installation, clone the repository into your local system using below command:
 
-A new Flutter project.
+```bash
+# Clone this repository
+$ git clone https://github.com/MugheesMb/aqua-VS-Alien.git
 
-## Getting Started
+# Go into the repository
+$ cd dyslexic_app
 
-This project is a starting point for a Flutter application.
+# Open project in VS code
+$ code .
 
-A few resources to get you started if this is your first Flutter project:
+# Install dependencies by going to pubspec.yaml
+$ flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Run the project
+$ flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
